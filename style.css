@@ -1,0 +1,323 @@
+body{
+    background-color: #EEF7FF;
+}
+.container{
+    margin: 0;
+}
+.hero-section{
+    height: 700px;
+    background-image: url(./images/purple-geometric-background-vector-illustration-260nw-2274250789.png);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.resume{
+    height: 1900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-me{
+    width: 100%;
+    height: 200px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/bg.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-page{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+    color: whitesmoke;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55pt;
+      
+}
+h2.cnt-me{
+    color: #6C48C5;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
+}
+
+#intro{
+    margin-top: 0;
+    color: whitesmoke;
+    font-family: "Libre Baskerville", serif;
+     font-weight: 400;
+    font-style: normal;
+    font-size: 10pt;
+}
+#greetings{
+    margin-left: 150px;
+    
+}
+.img1{
+    height: 700px;
+    width: 700px;
+    
+}
+
+
+.about-me{
+    width: 500px;
+}
+.idpic{
+    border: solid darkmagenta;
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 150px ;
+   
+}
+h2{
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #6C48C5;
+}
+.description{
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight:bold;
+    font-style: normal;
+    text-align: center;
+    font-size: 10pt;
+    color: #C68FE6;
+}
+h3{
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    color: #1230AE;
+    margin-top: 100px
+}
+h3.cnt-me{
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35pt;
+    color: #1230AE;
+    margin-top: 100px
+}
+.divider{
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
+    color: #C68FE6;
+    margin: 0;
+}
+.educ{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+.shs{
+    width: 50%;
+}
+.college{
+    width: 50%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+    font-weight:bold;
+    font-style: bold;
+    font-size: 8pt;
+    color: #C68FE6;
+}
+.school{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+    border: solid;
+}
+
+h4{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    color: #6C48C5; 
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+h4.cnt-me{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15pt;
+    text-align: center;
+    color: #6C48C5; 
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+img.icon{
+    width: 15pt;
+}
+h5{
+    font-family: "Righteous", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 10pt;
+    color: #6C48C5; 
+    margin-top: 10px;
+}
+p{
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 9pt;
+    color: #C68FE6; 
+    margin-top: 10px;  
+    text-align:left;
+}
+.icon-educ{
+    height: 15px;
+}
+.skills{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.skills-container{
+    width:min-content;
+}
+.abilities{
+    border: solid;
+    width: 200px;
+    height: 200px;
+}
+#contact-link{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.footer-text{
+    color: #FFF7F7;
+    padding-top: 10px ;
+    margin: 10px;
+    text-align: center;
+    
+
+}
+.gif-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.gif{
+    margin-top: 50px;
+    width: auto;
+}
+
+@media (max-width: 1200px){
+    .hero-section{
+        background-size: 100%;
+    }
+    .img1{
+        height: auto;
+        width: auto;
+    }
+    h1{
+        font-size:50pt;
+        margin: auto;
+    }
+    .educ{
+        display: flex;
+        flex-direction: column;
+    }
+    .shs{
+        width: 100%;
+        margin: 10px;
+    }
+    .college{
+        width: 100%;
+        margin: 10px;
+    }
+    .resume{
+        height: auto;
+    }
+}
+@media (max-width: 992px) {
+    .skills{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        
+    }
+    .hero-section{
+        background-size: 100%;
+    }
+   
+}
+@media (max-width: 576px){
+    .hero-section{
+        background-size: 100%;
+        height: 250px;
+    }
+    .img1{
+        height: 250px;
+        width: 250px;
+    }
+    h1{
+        font-size:25pt;
+        width:max-content
+    }
+    #greetings{
+        margin-left:50px;
+        
+    }
+    #intro{
+        font-size: 8pt;
+    }
+    .school{
+        height:180px;
+        width: 280px;
+    }
+    h4{
+        font-size: 10pt;
+    }
+    h5{
+        font-size: 8pt;
+    }
+    p{
+        font-size: 7pt;
+    }
+    ul{
+        font-size: 6pt;
+    }
+}
